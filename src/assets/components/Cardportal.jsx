@@ -7,16 +7,6 @@ function Cardportal(props){
     <>
         <div>
             <Flashcard></Flashcard>
-            <Flashcard></Flashcard>
-            <Flashcard></Flashcard>
-            <Flashcard></Flashcard>
-            <Flashcard></Flashcard>
-            <Flashcard></Flashcard>
-            <Flashcard></Flashcard>
-            <Flashcard></Flashcard>
-            <Flashcard></Flashcard>
-            <Flashcard></Flashcard>
-            <Flashcard></Flashcard>
         </div>
         <button onClick={length++}>Next</button>
     </>
