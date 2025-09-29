@@ -6,16 +6,16 @@ import Cardportal from './assets/components/cardportal'
 function App() {
 
   const cards = [
-  {id:1,front:"placeholder", back:"fuck u bitch"},
-  {id:2,front:"placeholder", back:"fuck u bitch"},
-  {id:3,front:"placeholder", back:"fuck u bitch"},
-  {id:4,front:"placeholder", back:"fuck u bitch"},
-  {id:5,front:"placeholder", back:"fuck u bitch"},
-  {id:6,front:"placeholder", back:"fuck u bitch"},
-  {id:7,front:"placeholder", back:"fuck u bitch"},
-  {id:8,front:"placeholder", back:"fuck u bitch"},
-  {id:9,front:"placeholder", back:"fuck u bitch"},
-  {id:10,front:"placeholder", back:"fuck u bitch"},
+  {id:1,front:"placeholder1", back:"hello there"},
+  {id:2,front:"placeholder2", back:"hello there"},
+  {id:3,front:"placeholder3", back:"hello there"},
+  {id:4,front:"placeholder4", back:"hello there"},
+  {id:5,front:"placeholder5", back:"hello there"},
+  {id:6,front:"placeholder6", back:"hello there"},
+  {id:7,front:"placeholder7", back:"hello there"},
+  {id:8,front:"placeholder8", back:"hello there"},
+  {id:9,front:"placeholder9", back:"hello there"},
+  {id:10,front:"placeholder10", back:"hello there"},
 ]
 
   return (

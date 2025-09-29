@@ -2,13 +2,16 @@ import { useState } from 'react'
 import Flashcard from './flashcard'
 
 function Cardportal(props){
+    const [nextCard, setNextCard] = useState(0)
+    const changeIndex = () =>{
+        setNextCard(nextCard+1)
+    }
+
 
     return (
     <>
-        <div>
-            <Flashcard></Flashcard>
-        </div>
-        <button onClick={length++}>Next</button>
+        <Flashcard content={props.cards[nextCard]} ></Flashcard>
+        <button onClick={changeIndex}>Next</button>
     </>
     )
 } 
