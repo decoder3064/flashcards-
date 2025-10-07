@@ -24,6 +24,7 @@ function App() {
       <h3 className='title2'>Look at this cards and laugh please they are funny I swear 😩</h3>
       <h4 className='title3'> Number of Jokes:{cards.length} </h4>
       <Cardportal cards = {cards}/>
+
     </>
   )
 }

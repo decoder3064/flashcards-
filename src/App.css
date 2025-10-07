@@ -64,6 +64,11 @@
   transform: rotate(-2deg);
 }
 
+.descrpition{
+  color: #ffff00;
+  background-color: brown;
+}
+
 .title3 {
   background: linear-gradient(180deg, #ff1493 0%, #9932cc 100%);
   padding: 15px;
@@ -185,6 +190,82 @@ button:active {
 .end-screen{
   display: flex;
   flex-direction: column;
+}
+
+
+/* Container */
+.reactions-container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 2rem 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.reactions-container h3 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: bounce 1s ease infinite;
+}
+
+/* Individual reaction cards */
+.reaction-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 15px;
+    border-left: 5px solid #ff6b6b;
+    transform: rotate(-1deg);
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.reaction-card:nth-child(even) {
+    transform: rotate(1deg);
+    border-left-color: #4ecdc4;
+}
+
+.reaction-card:hover {
+    transform: scale(1.05) rotate(0deg);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.reaction-card strong {
+    color: #2d3436;
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.reaction-card p:last-child {
+    color: #636e72;
+    font-style: italic;
+    background: #fff3cd;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}
+
+/* Silly animations */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Add emoji decorations */
+.reactions-container h3::before {
+    content: "💭 ";
+}
+
+.reactions-container h3::after {
+    content: " 💭";
 }
 
 /* assisted myself with claude for the css rules */
