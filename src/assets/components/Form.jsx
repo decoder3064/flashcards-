@@ -16,6 +16,7 @@ function Form(props){
         }
         props.setReactions({...props.reactions, [props.jokeId]:res} )
         console.log("User submitted:",res)
+        alert("Dont be too hard man!jsヵfj")
         setRes('')
 
 

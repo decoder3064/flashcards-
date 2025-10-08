@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Cardportal from './assets/components/cardportal'
+import Cardportal from './assets/components/Cardportal'
 
 
 function App() {
